@@ -1,0 +1,45 @@
+
+body{
+
+	background-color : #cce6ff;
+	text-align: center;
+	font-size: 25px;
+}
+
+h2{
+
+	font-size: 45px;
+}
+
+table{
+
+	background-color: #e6f2ff;
+	text-align: center;
+	font-size: 28px;
+}
+
+button{
+
+	font-size: 30px;
+	background-color: #e6f2ff;
+	width: 250px;
+}
+
+input{
+
+	font-size: 30px;
+	width: 300px;
+}
+
+#username, #password{
+
+	text-align: left;
+	font-size: 25px;
+}
+
+select{
+
+	margin: 10px;
+	font-size: 30px;
+}
+

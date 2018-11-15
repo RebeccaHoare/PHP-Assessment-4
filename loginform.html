@@ -1,0 +1,41 @@
+<DOCTYPE html>
+
+<html>
+
+<head>
+
+	<title>Login Form</title>
+	
+	<link rel = "stylesheet" type = "text/css" href = "style.css">
+	
+	<meta charset = "utf-8">
+	
+</head>
+
+<body>
+
+	<h2>Login Form</h2>
+	
+	// this form allows the user to type in their username and password to allow them to loging
+	//the post method is used to submit the data that the user has entered into the username and password to the login.php which checks if they have entered their details correctly
+	<form id = "loginform" action="login.php" method = "post">
+	<label for ="username">Username</label>
+	<div>
+
+	<input name="username" type="text" placeholder="Username" required="" id="username">
+	</div>
+	<br>
+	<label for="username">Password</label>
+	<div>
+
+	<input name="password" type="password" placeholder="Password" required="" id="password">
+	</div>
+	<br
+	<div>
+	<input id="loginbutton" type="submit" value="Login">
+	</div>
+
+</form>
+
+</body>
+</html>
